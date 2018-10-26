@@ -1,0 +1,19 @@
+var x;
+var y;
+var r;
+
+function Circle(x ,y ,r)
+{
+	this.x = x;
+	this.y = y;
+	this.r = r;
+}
+
+
+function show()
+{
+	noFill();
+	stroke(255);
+	strokeWeight(2);
+	ellipse(this.x ,this.y ,this.r*2 ,this.r*2);
+}
